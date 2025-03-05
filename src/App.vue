@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
+import LoginModel from '@/components/LoginModel.vue';
+
 </script>
 
 <template>
@@ -8,9 +10,13 @@ import { RouterLink, RouterView } from 'vue-router';
       <div class="router-item">
         <RouterLink to="/">首页</RouterLink>
       </div>
+      <div class="router-item">
+        <RouterLink to="/game">游戏</RouterLink>
+      </div>
     </div>
     <div class="view">
       <RouterView></RouterView>
+      <LoginModel></LoginModel>
     </div>
 
   </div>

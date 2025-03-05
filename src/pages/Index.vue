@@ -1,16 +1,12 @@
 <script setup lang="ts">
-
+import GameGround from '@/components/GameGround.vue';
 
 </script>
 
 <template>
-  <div class="container" ref="containerRef">
-    222
-  </div>
+  <GameGround></GameGround>
 </template>
 
 <style scoped>
-.container {
-  background-color: red;
-}
+
 </style>
