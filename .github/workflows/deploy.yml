@@ -36,5 +36,6 @@ jobs:
         REMOTE_USER: "root"
         TARGET: "/home/3d/html/dist"
         SCRIPT_AFTER: |
-          cd /home/sgs/
+          cd /home/3d/
+          docker compose down
           docker compose up -d
